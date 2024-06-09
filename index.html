@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Landing Page</title>
+    <style>
+
+        body{
+            background-image:url("bg2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #e0cccc;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .title{
+            color: white;
+            font-size: 64px;
+            font-weight: bold;
+            margin-top:100px ;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .description{
+            font-size: 20px;
+            line-height:1.5 ;
+            margin-bottom: 40px;
+
+        }
+
+        .navbar{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+
+        img{
+            mix-blend-mode: multiply; 
+            width: 120px;
+            position: absolute;
+            left: 5%;
+            filter: brightness(0.9),invert(1);
+            margin-top: 10px;
+            margin-left: 0.1%;
+        }
+
+        .navbar a{
+            color: #f7e8e8;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 25px;
+            transition: 0.25s;
+            cursor: pointer;
+        }
+
+        .navbar a:hover{
+            color: rgb(55, 168, 14);
+            
+        }
+
+        .socialicons{
+            margin-top: 20px;
+            bottom: 20px;
+            left: 90%;
+            position: fixed;
+            transform: translate(-50%);
+
+        }
+
+        .socialicons a{
+            color: #f7e8e8;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .socialicons a:hover{
+            color: antiquewhite;
+        }
+
+        .button{
+            display: inline-block;
+            padding: 15px 40px;
+            margin: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: 0.25s;
+            color:white;
+            background-color: rgb(200, 73, 73);
+            
+        }
+
+        .button:hover{
+            color:rgb(91, 24, 24) ;
+            background-color: white;
+            transform: scale(0.9);
+        }
+
+        .footer{
+    background-color: rgb(63, 11, 11);
+    padding: 4px;
+    text-align:center;
+    margin-top: 300px;
+}
+
+.footer p{
+    color: rgb(234, 222, 222);
+}
+    
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="logo3.png" alt="">
+    </div>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gameplay</a>
+        <a href="#">FAQ</a>
+    </div>
+    <div class="title">The Last Of Us</div>
+    <div class="description">
+        Endure and survive. 
+        Experience the emotional storytelling and unforgettable characters in The Last of Us™.<br> 
+        Embark on an epic journey and explore the vast world and make tough choices.<br>
+         Winner of over 200 Game of the Year awards, 
+         now available for PC.
+    </div>
+    <button class="button Play">
+        Play
+    </button>
+    <button class="button Download">
+        Download
+    </button>
+    <div class="socialicons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+    </div>
+    <div class="footer">
+        <footer><p>Copyright © The Last Of Us 2024</p></footer>
+    </div>
+</body>
+</html>
